@@ -3,6 +3,9 @@ import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import Trainers from "../components/Trainers";
 import Brands from "../components/Brands";
+import Cards from "../components/Cards";
+import Membership from "../components/Membership";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   
@@ -17,6 +20,9 @@ export default function Home() {
       <HeroSection />
       <Brands />
       <Trainers />
+      <Cards />
+      <Membership />
+      <Testimonials />
     </div>
   );
 }

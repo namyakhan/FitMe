@@ -4,7 +4,7 @@ const Trainers = () => {
   return (
     <div className="bg-beige text-charcoal pt-10 lg:pt-20 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
       {/* heading */}
-      <h1 className="text-[35px] lg:text-[64px] font-[700] text-center mb-5 lg:mb-16">
+      <h1 className="text-[35px] lg:text-[64px] font-[700] text-center lg:mb-16">
         Meet Our Certified <span className="text-purple">Trainers</span>
       </h1>
 
@@ -12,10 +12,10 @@ const Trainers = () => {
         {/* Trainer 1 */}
         <div className="flex flex-col items-center pt-20">
           <img
-            src="images/trainer2.svg"
+            src="images/trainer.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[400px] mb-5  "
+            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5  "
           />
           <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
             Alex Graham
@@ -28,10 +28,10 @@ const Trainers = () => {
         {/* Trainer 2 */}
         <div className="flex flex-col items-center basis-1/2">
           <img
-            src="images/trainer1.png"
+            src="images/trainer2.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[400px] mb-5 "
+            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5 "
           />
           <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
             Sebastian Smith
@@ -42,12 +42,12 @@ const Trainers = () => {
         </div>
 
         {/* Trainer 3 */}
-        <div className="flex flex-col items-center pt-12 ">
+        <div className="flex flex-col items-center pt-12 font-sora ">
           <img
             src="images/trainer3.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[400px] mb-5 "
+            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5 "
           />
           <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
             Luis Fisher
