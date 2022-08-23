@@ -9,11 +9,11 @@ const Membership = () => {
 
   return (
     <div className="bg-beige  pb-10 text-charcoal lg:pt-20 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center">
-      <h1 className="text-[35px] lg:text-[64px] font-[700] text-center mb-4 ">
+      <h2 className="mb-4">
         Ready to Start your <span className="text-purple">Journey?</span>
-      </h1>
-      <div className="flex flex-row items-center font-[600] text-[20px] lg:text-[24px] space-x-3">
-        <p>Bill Monthly</p>
+      </h2>
+      <div className="flex flex-row items-center font-[600] space-x-3">
+        <p className="bill mb-0">Bill Monthly</p>
         <div onClick={() => setToggle(!toggle)}>
           {toggle ? (
             <MdToggleOn className="text-[40px] text-purple" />
@@ -22,7 +22,7 @@ const Membership = () => {
           )}
         </div>
 
-        <p>Bill Yearly</p>
+        <p className="bill mb-0">Bill Yearly</p>
       </div>
 
       {/* <MembershipItems  /> */}
@@ -30,7 +30,7 @@ const Membership = () => {
         {/* Weekly */}
         <MembershipItems
           plan="Weekly Plan"
-          price="$10"
+          price="$9"
           frequency="per week, bill annually"
           gym="Unlimited gym acess"
           program="1 Training Program"
@@ -38,46 +38,32 @@ const Membership = () => {
         />
 
         {/* Monthly */}
-        <div className=" p-5 lg:p-16  bg-beige rounded-2xl  box2 flex flex-col items-center">
-          <div className=" flex flex-col items-center space-y-2 font-[600] mt-3 ">
-            <h2 className="text-[20px] lg:text-[24px] text-purple ">
-              Monthly Plan
-            </h2>
-            <h1 className="text-[36px] lg:text-[48px]">$10</h1>
-            <p className="pb-3 text-[12px] lg:text-[16px] text-gray">
-              per month, bill annually
-            </p>
+        <div className=" p-5 lg:p-14  bg-beige rounded-2xl  box2 flex flex-col items-center ">
+          <div className=" flex flex-col items-center space-y-2 font-[600]">
+            <h2 className="plan">Monthly Plan</h2>
+            <h1 className="price">$49</h1>
+            <p className="desc">per month, bill annually</p>
           </div>
 
           <div className="space-y-5  mb-10 border-grayish border-t pt-5">
             <div className="flex flex-row items-center space-x-2">
               <MdCheckBox className="text-purple" />
-              <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-                Unlimited gym acess
-              </p>
+              <p className="features">Unlimited gym access</p>
             </div>
             <div className="flex flex-row items-center space-x-2">
               <MdCheckBox className="text-purple" />
-              <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-                5 Training Program
-              </p>
+              <p className="features">5 Training Program</p>
             </div>
             <div className="flex flex-row items-center space-x-2">
               <MdCheckBox className="text-purple" />
-              <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-                Adjustable Schedule
-              </p>
+              <p className="features">Adjustable Schedule</p>
             </div>
             <div className="flex flex-row items-center space-x-2">
               <MdCheckBox className="text-purple" />
-              <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-                Free Wifi
-              </p>
+              <p className="features">Free Wifi</p>
             </div>
           </div>
-          <button className=" tracking-wide items-center py-2 px-12 lg:px-16 text-sm font-medium text-center text-beige bg-purple rounded  hover:bg-violet-700 hover:text-beige cursor-pointer transition duration-300 transform hover:scale-105 mb-3  text-[15px] lg:text-[18px] ">
-            Choose Plan
-          </button>
+          <button className="membership-btn">Choose Plan</button>
         </div>
 
         {/* Yearly */}

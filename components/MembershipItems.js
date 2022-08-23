@@ -2,34 +2,28 @@ import { MdCheckBox } from "react-icons/md";
 
 const MembershipItems = ({ plan, price, frequency, gym, program, wifi }) => {
   return (
-    <div className="p-5 lg:p-6 bg-beige rounded-2xl border border-grayish box flex flex-col items-center mt-16">
-      <div className=" flex flex-col items-center space-y-2 font-[600] mt-3 ">
-        <h2 className="text-[20px] lg:text-[24px] text-purple ">{plan}</h2>
-        <h1 className="text-[36px] lg:text-[48px]">{price}</h1>
-        <p className="pb-3 text-[12px] lg:text-[16px] text-gray">{frequency}</p>
+    <div className="p-5 lg:p-6 bg-beige rounded-2xl border border-grayish box flex flex-col items-center mt-10">
+      <div className=" flex flex-col items-center space-y-1 font-[600]  ">
+        <h2 className="plan">{plan}</h2>
+        <h1 className="price">{price}</h1>
+        <p className="desc">{frequency}</p>
       </div>
 
-      <div className="space-y-5  mb-10 border-grayish border-t pt-5">
+      <div className="mb-8 border-grayish border-t pt-5 space-y-5 ">
         <div className="flex flex-row items-center space-x-2">
           <MdCheckBox className="text-purple" />
-          <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-            {gym}
-          </p>
+          <p className="features">{gym}</p>
         </div>
         <div className="flex flex-row items-center space-x-2">
           <MdCheckBox className="text-purple" />
-          <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-            {program}
-          </p>
+          <p className="features">{program}</p>
         </div>
         <div className="flex flex-row items-center space-x-2">
           <MdCheckBox className="text-purple" />
-          <p className="text-[16px] lg:text-[20px] text-charcoal font-[600]">
-            {wifi}
-          </p>
+          <p className="features">{wifi}</p>
         </div>
       </div>
-      <button className=" tracking-wide items-center py-2 px-12 text-sm font-medium text-center text-charcoal bg-beige rounded border-purple border hover:bg-violet-700 hover:text-beige cursor-pointer transition duration-300 transform hover:scale-105 mb-3 text-[15px] lg:text-[18px] ">
+      <button className=" membership-btn text-charcoal bg-beige  border-purple border hover:bg-violet-700 hover:text-beige cursor-pointer ">
         Choose Plan
       </button>
     </div>

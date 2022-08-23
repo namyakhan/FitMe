@@ -11,7 +11,7 @@ const Brands = () => {
   ];
   return (
     <div className="bg-beige pb-20 font-sora">
-      <h1 className="text-[24px] font-[600] text-gray text-center mb-6 lg:mb-10 pt-10">
+      <h1 className="text-[20px] font-[600] text-gray text-center mb-6 lg:mb-10 pt-10">
         Trusted by 3000+ brands worldwide
       </h1>
       <div className="grid grid-rows-2 grid-flow-col gap-5 justify-evenly  lg:flex lg:flex-cols-6 lg:justify-center lg:space-x-20">

@@ -4,16 +4,74 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.cards{
-        
-        box-shadow: 0px 2px 40px 0px rgb(0 0 0 / 30%);
+.cards {
+  box-shadow: 0px 2px 40px 0px rgb(0 0 0 / 30%);
 }
 
-.box{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.box2{
-        box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.25);
+.box2 {
+  box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+@layer base {
+  button {
+    @apply bg-purple text-beige font-medium font-sora py-[7px] px-[20px] lg:px-[40px] lg:py-2 text-[15px] lg:text-[18px] rounded  hover:bg-violet-700 transition duration-300 transform hover:scale-105;
+  }
+
+  h2 {
+    @apply text-[30px] lg:text-[50px] xl:text-[60px] font-[700] text-center mb-5 lg:mb-10;
+  }
+
+  h3 {
+    @apply text-[16px] lg:text-[24px] font-[700] text-charcoal;
+  }
+  h5 {
+    @apply mb-3 text-[24px] lg:text-[32px] font-[600]  text-purple;
+  }
+
+  p {
+    @apply mb-10 font-[400] text-gray text-[15px] lg:text-[18px];
+  }
+
+  h6 {
+    @apply text-[12px] lg:text-[18px] font-[600] text-gray;
+  }
+}
+
+@layer components {
+  .bill {
+    @apply text-charcoal font-bold text-[17px] lg:text-[24px];
+  }
+
+  .features {
+    @apply text-[14px] lg:text-[20px] text-charcoal font-[600] mb-0;
+  }
+
+  .plan {
+    @apply text-[16px] lg:text-[24px] text-purple mb-0;
+  }
+
+  .price {
+    @apply text-[30px] lg:text-[48px];
+  }
+
+  .desc {
+    @apply pb-3 text-[12px] lg:text-[16px] text-gray font-[600];
+  }
+
+  .membership-btn {
+    @apply tracking-wide items-center py-2 px-12 lg:px-16 text-sm font-medium text-center text-beige bg-purple rounded  hover:bg-violet-700 hover:text-beige cursor-pointer transition duration-300 transform hover:scale-105 mb-3  text-[14px] lg:text-[18px];
+  }
+
+  .footer-heading {
+    @apply text-gray text-[16px] font-[400]
+  }
+
+  .footer-items {
+  
+  @apply text-white text-[12px] font-[200] mb-0
+} 
 }

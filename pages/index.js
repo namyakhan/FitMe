@@ -6,10 +6,9 @@ import Brands from "../components/Brands";
 import Cards from "../components/Cards";
 import Membership from "../components/Membership";
 import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 export default function Home() {
-  
-
   return (
     <div>
       <Head>
@@ -23,6 +22,7 @@ export default function Home() {
       <Cards />
       <Membership />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

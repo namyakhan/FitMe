@@ -1,28 +1,22 @@
-import Button from "./Button";
-
 const Trainers = () => {
   return (
-    <div className="bg-beige text-charcoal pt-10 lg:pt-20 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
+    <div className="bg-beige text-charcoal pt-16 lg:pt-24 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
       {/* heading */}
-      <h1 className="text-[35px] lg:text-[64px] font-[700] text-center lg:mb-16">
+      <h2 className="lg:mb-16">
         Meet Our Certified <span className="text-purple">Trainers</span>
-      </h1>
+      </h2>
 
-      <div className="space-y-10 flex flex-col lg:flex lg:flex-row lg:gap-x-10">
+      <div className=" flex flex-col space-y-10 lg:space-y-0 lg:flex lg:flex-row  lg:gap-x-10">
         {/* Trainer 1 */}
-        <div className="flex flex-col items-center pt-20">
+        <div className="flex flex-col items-center ">
           <img
             src="images/trainer.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5  "
+            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-2  "
           />
-          <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
-            Alex Graham
-          </h2>
-          <p className="text-[17px] lg:text-[20px] font-[600] text-gray">
-            MMA Trainer
-          </p>
+          <h3>Alex Graham</h3>
+          <h6>MMA Trainer</h6>
         </div>
 
         {/* Trainer 2 */}
@@ -33,32 +27,24 @@ const Trainers = () => {
             loading="lazy"
             className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5 "
           />
-          <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
-            Sebastian Smith
-          </h2>
-          <p className="text-[17px] lg:text-[20px] font-[600] text-gray">
-            Gym Trainer
-          </p>
+          <h3>Sebastian Smith</h3>
+          <h6>Gym Trainer</h6>
         </div>
 
         {/* Trainer 3 */}
-        <div className="flex flex-col items-center pt-12 font-sora ">
+        <div className="flex flex-col items-center font-sora ">
           <img
             src="images/trainer3.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5 "
+            className=" h-[300px] lg:h-[350px] xl:h-[450px] "
           />
-          <h2 className="text-[20px] lg:text-[24px] font-[700] text-charcoal">
-            Luis Fisher
-          </h2>
-          <p className="text-[17px] lg:text-[20px] font-[600] text-gray">
-            Yoga Trainer
-          </p>
+          <h3>Luis Fisher</h3>
+          <h6>Yoga Trainer</h6>
         </div>
       </div>
       <div className="mt-16">
-        <Button className="">See All</Button>
+        <button className="px-28 md:px-16">See All</button>
       </div>
     </div>
   );

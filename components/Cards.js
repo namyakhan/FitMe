@@ -7,9 +7,9 @@ const Cards = () => {
     <div className="bg-beige pt-28 py-[10px] md:px-[50px] px-[20px] lg:pb-16 font-sora pb-24 ">
       {/* heading */}
 
-      <h1 className="text-[35px] lg:text-[64px] font-[700] text-center mb-16 lg:mb-24 ">
+      <h2 className="text-[35px] lg:text-[64px] font-[700] text-center mb-10 lg:mb-16 ">
         Explore Our <span className="text-purple">Programs</span>
-      </h1>
+      </h2>
 
       {/* Cards */}
       <div className=" space-y-10  lg:space-y-0 flex flex-col items-center lg:flex lg:flex-row lg:justify-between lg:items-center">
@@ -25,16 +25,16 @@ const Cards = () => {
             loading="lazy"
             className=" h-[100px] mb-3  "
           />
-          <h5 className="mb-3 text-[32px] font-[600]  text-beige">
+          <h5 className="text-beige">
             Strength Training
           </h5>
 
-          <p className="mb-10 font-[400] text-beige text-[18px]">
+          <p className="text-beige">
             Our professional trainers will help you manage or lose weight,
             increase your metabolism to help you burn more calories, enhance
             your quality of life.
           </p>
-          <button className="inline-flex tracking-wide items-center py-2 px-4 text-sm font-medium text-center text-purple bg-beige rounded  transition duration-300 transform hover:scale-105 ">
+          <button className="inline-flex tracking-wide items-center py-2 px-4 text-sm text-purple bg-beige hover:bg-beige hover:text-purple">
             Learn More <ArrowRightIcon className="h-5 ml-2" />
           </button>
         </div>

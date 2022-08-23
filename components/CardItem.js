@@ -10,14 +10,14 @@ const CardItem = ({url, title, desc}) => {
         loading="lazy"
         className=" h-[100px] mb-3  "
       />
-      <h5 className="mb-3 text-[32px] font-[600]  text-purple">
+      <h5>
         {title}
       </h5>
 
-      <p className="mb-10 font-[400] text-gray text-[18px]">
+      <p className="">
        {desc}
       </p>
-      <button className="inline-flex tracking-wide items-center py-2 px-4 text-sm font-medium text-center text-beige bg-purple rounded  hover:bg-violet-700 transition duration-300 transform hover:scale-105">
+      <button className="inline-flex tracking-wide items-center py-2 px-4 text-sm  text-beige bg-purple rounded  hover:bg-violet-700 ">
         Learn More <ArrowRightIcon className="h-5 ml-2" />
       </button>
     </div>
