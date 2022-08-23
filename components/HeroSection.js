@@ -21,7 +21,7 @@ const HeroSection = () => {
           <button className="px-28 md:px-10">Get Started</button>
           <div className="flex items-center">
             <PlayIcon className="h-7 text-purple mr-1" />
-            <p className="font-[600]">Watch Video</p>
+            <p className="font-[600] mb-0 text-charcoal">Watch Video</p>
           </div>
         </div>
       </div>
