@@ -21,7 +21,7 @@ const Brands = () => {
             src={image.url}
             alt={image.title}
             loading="lazy"
-            className="h-20 lg:h-24"
+            className="h-20 lg:h-24 "
           />
         ))}
       </div>

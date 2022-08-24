@@ -20,11 +20,15 @@
 .swiper-button-prev {
   padding: 5px !important;
   color: #b1aebd !important;
+  size: 10px !important;
 }
 
 @layer base {
   button {
-    @apply bg-purple text-beige font-medium font-sora py-[7px] px-[20px] lg:px-[40px] lg:py-2 text-[15px] lg:text-[18px] rounded  hover:bg-violet-700 transition duration-300 transform hover:scale-105;
+    @apply bg-purple text-beige font-medium font-sora py-[7px] px-[20px] lg:px-[40px] lg:py-2 text-[15px] lg:text-[18px] rounded  hover:bg-violet-700  transition duration-300  hover:scale-105;
+  }
+  nav{
+    z-index: 10; /* Don't hesitate to change '10' to a higher number. */
   }
 
   h2 {
@@ -69,7 +73,7 @@
   }
 
   .membership-btn {
-    @apply tracking-wide items-center py-2 px-12 lg:px-16 text-sm font-medium text-center text-beige bg-purple rounded  hover:bg-violet-700 hover:text-beige cursor-pointer transition duration-300 transform hover:scale-105 mb-3  text-[14px] lg:text-[18px];
+    @apply tracking-wide items-center py-2 px-12 lg:px-16 text-sm font-medium text-center text-beige bg-purple rounded  hover:bg-violet-700 hover:text-beige cursor-pointer transition duration-300 hover:scale-105 mb-3  text-[14px] lg:text-[18px];
   }
 
   .footer-heading {
@@ -79,4 +83,5 @@
   .footer-items {
     @apply text-white text-[12px] font-[200] mb-0;
   }
+  
 }
