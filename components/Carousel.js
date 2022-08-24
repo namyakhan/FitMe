@@ -53,7 +53,7 @@ const Carousel = () => {
         navigation={true}
         modules={[Navigation]}
         autoplay={{
-          delay: 1000,
+          delay: 2000,
         }}
       >
         <SwiperSlide>{Slide1()}</SwiperSlide>
