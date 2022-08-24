@@ -1,6 +1,6 @@
 const Trainers = () => {
   return (
-    <div className="bg-beige text-charcoal pt-16 lg:pt-24 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
+    <div id="trainers" className= "bg-beige   text-charcoal pt-16 lg:pt-24 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
       {/* heading */}
       <h2 className="lg:mb-16">
         Meet Our Certified <span className="text-purple">Trainers</span>

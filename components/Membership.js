@@ -8,7 +8,10 @@ const Membership = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="bg-beige  pb-10 text-charcoal lg:pt-20 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center">
+    <div
+      id="memberships"
+      className="bg-beige  pb-10 text-charcoal lg:pt-20 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center"
+    >
       <h2 className="mb-4">
         Ready to Start your <span className="text-purple">Journey?</span>
       </h2>

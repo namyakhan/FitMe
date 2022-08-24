@@ -4,7 +4,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 
 const Cards = () => {
   return (
-    <div className="bg-beige pt-28 py-[10px] md:px-[50px] px-[20px] lg:pb-16 font-sora pb-24 ">
+    <div id="programs" className="bg-beige pt-28 py-[10px] md:px-[50px] px-[20px] lg:pb-16 font-sora pb-24 ">
       {/* heading */}
 
       <h2 className="text-[35px] lg:text-[64px] font-[700] text-center mb-10 lg:mb-16 ">

@@ -2,17 +2,27 @@ import React, { useState } from "react";
 
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
 
+import { Link } from "react-scroll";
+
+import { useRouter } from "next/router";
+
 const Nav = () => {
   let Links = [
     { name: "", link: "/" },
-    { name: "Home", link: "/" },
-    { name: "Trainers", link: "/" },
-    { name: "Programs", link: "/" },
-    { name: "Memberships", link: "/" },
-    { name: "Testimonials", link: "/" },
+    { name: "Home", link: "home" },
+    { name: "Trainers", link: "trainers" },
+    { name: "Programs", link: "programs" },
+    { name: "Memberships", link: "memberships" },
+    { name: "Testimonials", link: "testimonials" },
   ];
 
   let [open, setOpen] = useState(false);
+  const router = useRouter();
+  const login = (e) => {
+    e.preventDefault();
+
+    router.push("/login");
+  };
 
   return (
     <nav className="drop-shadow-md hover:drop-shadow-lg w-full left-0 font-sora">
@@ -43,10 +53,22 @@ const Nav = () => {
               key={link.name}
               className="md:ml-8 text-[15px] lg:text-[18px] md:my-0 my-7 text-charcoal font-medium  hover:text-purple  "
             >
-              <a href={link.link}>{link.name}</a>
+              <Link
+                href={link.link}
+                to={link.link}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={900}
+              >
+                <a>{link.name}</a>
+              </Link>
             </li>
           ))}
-          <button className="px-6">Sign In</button>
+
+          <button onClick={login} className="px-6">
+            Sign In
+          </button>
         </ul>
       </div>
     </nav>

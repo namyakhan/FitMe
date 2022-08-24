@@ -4,7 +4,7 @@ import { PlayIcon } from "@heroicons/react/solid";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col-reverse items-center text-center lg:text-left  md:flex-row py-[10px] md:px-[50px] px-[20px] bg-beige font-sora lg:pt-16">
+    <div id="home" className="flex flex-col-reverse items-center text-center lg:text-left  md:flex-row py-[10px] md:px-[50px] px-[20px] bg-beige font-sora lg:pt-16">
       {/* Text */}
       <div className="tracking-wide">
         <h1 className="text-charcoal text-[40px] lg:text-[60px] xl:text-[90px] lg:text font-[800] leading-[50px] xl:leading-[100px] mb-5">

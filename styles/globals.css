@@ -16,6 +16,12 @@
   box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.25);
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 5px !important;
+  color: #b1aebd !important;
+}
+
 @layer base {
   button {
     @apply bg-purple text-beige font-medium font-sora py-[7px] px-[20px] lg:px-[40px] lg:py-2 text-[15px] lg:text-[18px] rounded  hover:bg-violet-700 transition duration-300 transform hover:scale-105;
@@ -67,11 +73,10 @@
   }
 
   .footer-heading {
-    @apply text-gray text-[16px] font-[400]
+    @apply text-gray text-[16px] font-[400];
   }
 
   .footer-items {
-  
-  @apply text-white text-[12px] font-[200] mb-0
-} 
+    @apply text-white text-[12px] font-[200] mb-0;
+  }
 }
