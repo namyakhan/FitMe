@@ -34,11 +34,11 @@ const MembershipItems = ({ plan, price, frequency, gym, program, wifi }) => {
       {showModal ? (
         <>
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50  font-sora">
-            <div className="relative w-auto  mx-auto max-w-md">
+            <div className="relative w-auto  mx-auto max-w-sm lg:max-w-md">
               {/*content*/}
               <div className="border-0 rounded-[30px] shadow-lg relative flex flex-col w-full bg-white">
                 {/*header*/}
-                <div className="flex flex-col items-start justify-between p-7 mb-5 mt-5 ">
+                <div className="flex flex-col items-start justify-between p-3 lg:p-7 mb-5 mt-5 ">
                   <h3>Payment successful</h3>
                   <p className="text-[16px] mt-3">
                     Your payment has been successfully submitted. We’ve sent you

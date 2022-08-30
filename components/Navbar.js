@@ -31,7 +31,7 @@ const Nav = () => {
           className="font-bold text-[25px] lg:text-[40px] cursor-pointer flex items-center  
       text-gray-800"
         >
-          <h1 className="cursor-pointer">
+          <h1 className="">
             <span className="text-purple">Fit</span>Me
           </h1>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import SwiperCore, { Autoplay } from "swiper";
@@ -52,6 +52,8 @@ const Carousel = () => {
         slidesPerView={1}
         autoplay={{
           delay: 3000,
+
+          delay: 2000,
         }}
       >
         <SwiperSlide>{Slide1()}</SwiperSlide>
