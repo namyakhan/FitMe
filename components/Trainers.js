@@ -1,8 +1,8 @@
 const Trainers = () => {
   return (
-    <div id="trainers" className= "bg-beige   text-charcoal pt-16 lg:pt-24 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center ">
+    <div id="trainers" className= "bg-beige  pt-20 text-charcoal lg:pt-32 font-sora py-[10px] md:px-[50px] px-[20px] flex flex-col items-center container mx-auto ">
       {/* heading */}
-      <h2 className="lg:mb-16">
+      <h2>
         Meet Our Certified <span className="text-purple">Trainers</span>
       </h2>
 
@@ -13,7 +13,7 @@ const Trainers = () => {
             src="images/trainer.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-2  "
+            className=" h-[300px] lg:h-[350px] xl:h-[400px] mb-2  "
           />
           <h3>Alex Graham</h3>
           <h6>MMA Trainer</h6>
@@ -25,7 +25,7 @@ const Trainers = () => {
             src="images/trainer2.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[450px] mb-5 "
+            className=" h-[300px] lg:h-[350px] xl:h-[400px] mb-5 "
           />
           <h3>Sebastian Smith</h3>
           <h6>Gym Trainer</h6>
@@ -37,7 +37,7 @@ const Trainers = () => {
             src="images/trainer3.svg"
             alt="mma-trainer"
             loading="lazy"
-            className=" h-[300px] lg:h-[350px] xl:h-[450px] "
+            className=" h-[300px] lg:h-[350px] xl:h-[400px] "
           />
           <h3>Luis Fisher</h3>
           <h6>Yoga Trainer</h6>

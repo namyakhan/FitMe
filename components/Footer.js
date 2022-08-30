@@ -25,7 +25,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="py-[10px] md:px-[50px] px-[20px] bg-charcoal font-sora lg:pt-16 pb-5 lg:pb-10 ">
+    <div className=" container mx-auto py-[10px] md:px-[50px] px-[20px] bg-charcoal font-sora lg:pt-16 pb-5 lg:pb-10 ">
       <div className="flex flex-col  lg:flex-row items-center justify-between space-y-10 lg:space-y-0">
         {/* Logo & copyright */}
         <div className="space-y-1">

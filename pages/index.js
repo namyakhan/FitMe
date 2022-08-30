@@ -8,6 +8,8 @@ import Membership from "../components/Membership";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
+
+
 export default function Home() {
   return (
     <div>
@@ -16,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+   
       <HeroSection />
       <Brands />
       <Trainers />
@@ -23,6 +26,7 @@ export default function Home() {
       <Membership />
       <Testimonials />
       <Footer />
+      
     </div>
   );
 }

@@ -5,10 +5,10 @@ const Testimonials = () => {
   return (
     <div
       id="testimonials"
-      className="font-sora text-charcoal bg-beige py-[10px] md:px-[200px] px-[20px] pt-20"
+      className="container mx-auto font-sora text-charcoal bg-beige py-[10px] md:px-[200px] px-[20px] pt-10 lg:pt-28"
     >
       <div className="flex flex-col">
-        <h2>
+        <h2 className="mb-0">
           Happiest <span className="text-purple">Trainee</span> Reviews
         </h2>
         <Carousel />

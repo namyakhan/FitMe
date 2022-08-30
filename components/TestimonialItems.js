@@ -10,7 +10,7 @@ const TestimonialItems = ({ url, desc, name, title }) => {
         loading="lazy"
         className="h-[210px] w-[200px] lg:h-auto lg:w-auto"
       />
-      <div className="mt-20 lg:mt-10 ">
+      <div className="mt-0 lg:mt-10 ">
         <FaQuoteLeft className="text-[20px]" />
         <p className="text-charcoal mt-5 mb-5 lg:w-[600px]">{desc}</p>
         <div className="space-y-1  mb-10 border-grayish border-t pt-5">

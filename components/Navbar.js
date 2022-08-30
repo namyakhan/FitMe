@@ -25,7 +25,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="drop-shadow-md hover:drop-shadow-lg w-full left-0 font-sora sticky top-0">
+    <nav className="container mx-auto drop-shadow-md hover:drop-shadow-lg w-full left-0 font-sora sticky top-0">
       <div className="md:flex items-center justify-between bg-beige py-[10px] md:px-[50px] px-[20px]">
         <div
           className="font-bold text-[25px] lg:text-[40px] cursor-pointer flex items-center  
@@ -66,7 +66,7 @@ const Nav = () => {
             </li>
           ))}
 
-          <button onClick={login} className="px-6">
+          <button onClick={login} className="px-10">
             Sign In
           </button>
         </ul>

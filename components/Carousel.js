@@ -50,10 +50,8 @@ const Carousel = () => {
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        navigation={true}
-        modules={[Navigation]}
         autoplay={{
-          delay: 1000,
+          delay: 3000,
         }}
       >
         <SwiperSlide>{Slide1()}</SwiperSlide>
